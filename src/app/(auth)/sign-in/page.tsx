@@ -81,7 +81,7 @@ const SignInPage = () => {
           <div className={styles.footer}>
             <p className={styles.footerText}>
               {" "}
-              Don't have an account? {""}{" "}
+              Don't have an account?
               <span className={styles.footerSpan}>
                 <a href="/sign-up">Sign Up</a>
               </span>
