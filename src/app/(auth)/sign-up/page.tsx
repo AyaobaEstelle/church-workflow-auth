@@ -7,7 +7,7 @@ const SignUpPage = () => {
       <li className={`${styles.textSection} pl-[7.5rem] pt-[6.125rem]`}>
         <h2 className={styles.textHeader}>Create a new account</h2>
         <p className={styles.textSubHeader}>
-          It's easy! Just take a minute to provide the details.
+          It&#39;s easy! Just take a minute to provide the details.
         </p>
         <form>
           <div className={styles.form}>
@@ -118,7 +118,6 @@ const SignUpPage = () => {
 
           <div className={styles.footer}>
             <p className={styles.footerText}>
-              {" "}
               Already have an account? {""}{" "}
               <span className={styles.footerSpan}>
                 <a href="/sign-in">Sign in</a>
